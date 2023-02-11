@@ -12,7 +12,7 @@ services:
       - 3030:3030
     expose:
       - "3030"
-    command: "npm start"
+    command: "npm run dev"
   mongo:
     image: mongo
     ports:
